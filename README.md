@@ -3,7 +3,7 @@
 A multiplayer birthday room: type a name, walk around the party as the
 birthday kid, blow out the candles together and launch fireworks.
 
-Play: https://zenasharp.github.io/chucmungsinhnhatdoanhduc/
+Play: https://quang.md/chucmungsinhnhatdoanhduc (also https://zenasharp.github.io/chucmungsinhnhatdoanhduc/)
 
 This repository holds the static build only. The page connects to the
 Trench City game server (`party` room) at https://party.trenchcity.fun.
