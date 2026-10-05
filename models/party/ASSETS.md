@@ -2,16 +2,20 @@
 
 Runtime copies for `/party`. Do not edit here; change the source and copy again.
 
-## Asset Studio exports (`D:\Asset Studio\exports\<id>\<id>.glb`)
+## Liar's Bar saloon furniture
+
+`liars-kit.glb` holds one node per kind (saloonChair, saloonDiningTable,
+saloonLeatherSofa, saloonArmchair, saloonLoungeTable, saloonFloorLamp,
+saloonWallClock). It is exported from the procedural builders on
+`feat/toony-mmo` (`makeLiarsBarProp`) by `scripts/party/export-liars-kit.mjs`,
+at game size, with that branch's worn textures reduced to 256 px.
+
+The cake table is procedural (`src/party/furniture.ts`).
+
+## Asset Studio exports (`D:\Asset Studio\exports\<id>\<id>.glb`), shown at about 2x
 
 | File | Studio version | sha256 (prefix) |
 | --- | --- | --- |
-| railwood-table.glb | 2 | 25fde3a6fb432828 |
-| railwood-chair.glb | 2 | 32d1aaf51f714c03 |
-| mv2-round-cafe-table.glb | 1 | 80365658f2b11b76 |
-| double-sofa.glb | 1 | 24b2d7f752348bcc |
-| single-sofa.glb | 1 | dc4abe332cc17143 |
-| coffee-table.glb | 1 | fd4db413fec750fc |
 | school-art-narrow-console-table.glb | 1 | 7ddad3f1e7e82cb3 |
 | school-canteen-rect-table.glb | 1 | 6bef216a30055ab3 |
 | mv2-leafy-floor-planter.glb | 1 | 9b1d01a0c7636df6 |
@@ -30,7 +34,8 @@ Runtime copies for `/party`. Do not edit here; change the source and copy again.
 (sha256 022ca4723ba5…) repacked by `scripts/party/pack-character.mjs`: the
 embedded PNG textures are re-encoded as JPEG; geometry, skins, morphs and all
 24 clips are byte-identical. `portrait.jpg` is the same project's source
-portrait, resized for the framed photos.
+portrait and `photo-2.jpg` a second photo the user supplied (2026-10-06),
+both resized for the framed photos.
 
 ## Third party
 
